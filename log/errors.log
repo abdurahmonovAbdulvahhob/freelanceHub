@@ -1,0 +1,871 @@
+{
+  error: Error: Configuration property "porrt" is not defined
+      at Config.get (C:\Users\abdul\OneDrive\Desktop\Najot ta'lim-BF\RESULT\3-oy\imtihon-3\freelanceHub\node_modules\config\lib\config.js:181:11)
+      at Object.<anonymous> (C:\Users\abdul\OneDrive\Desktop\Najot ta'lim-BF\RESULT\3-oy\imtihon-3\freelanceHub\app.js:11:21)
+      at Module._compile (node:internal/modules/cjs/loader:1460:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)
+      at Module.load (node:internal/modules/cjs/loader:1275:32)
+      at Module._load (node:internal/modules/cjs/loader:1091:12)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:158:5)
+      at node:internal/main/run_main_module:30:49,
+  level: 'error',
+  message: 'uncaughtException: Configuration property "porrt" is not defined\n' +
+    'Error: Configuration property "porrt" is not defined\n' +
+    "    at Config.get (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\node_modules\\config\\lib\\config.js:181:11)\n" +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js:11:21)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1275:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1091:12)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:158:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  stack: 'Error: Configuration property "porrt" is not defined\n' +
+    "    at Config.get (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\node_modules\\config\\lib\\config.js:181:11)\n" +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js:11:21)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1275:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1091:12)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:158:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  exception: true,
+  date: 'Wed Sep 11 2024 19:50:18 GMT+0500 (Узбекистан, стандартное время)',
+  process: {
+    pid: 10480,
+    uid: null,
+    gid: null,
+    cwd: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub",
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.3.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js"
+    ],
+    memoryUsage: {
+      rss: 77373440,
+      heapTotal: 55439360,
+      heapUsed: 28961344,
+      external: 2299229,
+      arrayBuffers: 17315
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 9416.218 },
+  trace: [
+    {
+      column: 11,
+      file: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\node_modules\\config\\lib\\config.js",
+      function: 'Config.get',
+      line: 181,
+      method: 'get',
+      native: false
+    },
+    {
+      column: 21,
+      file: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js",
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1460,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1544,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1275,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1091,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 212,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 158,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: C:\Users\abdul\OneDrive\Desktop\Najot ta'lim-BF\RESULT\3-oy\imtihon-3\freelanceHub\errors\api_error.js:28
+  }
+  ^
+  
+  SyntaxError: Unexpected token '}'
+      at wrapSafe (node:internal/modules/cjs/loader:1376:18)
+      at Module._compile (node:internal/modules/cjs/loader:1405:20)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)
+      at Module.load (node:internal/modules/cjs/loader:1275:32)
+      at Module._load (node:internal/modules/cjs/loader:1091:12)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)
+      at Module.require (node:internal/modules/cjs/loader:1297:12)
+      at require (node:internal/modules/helpers:123:16)
+      at Object.<anonymous> (C:\Users\abdul\OneDrive\Desktop\Najot ta'lim-BF\RESULT\3-oy\imtihon-3\freelanceHub\middleware\error_handling_middleware.js:1:18)
+      at Module._compile (node:internal/modules/cjs/loader:1460:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token '}'\n" +
+    "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\errors\\api_error.js:28\n" +
+    '}\n' +
+    '^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '}'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1376:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1405:20)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1275:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1091:12)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1297:12)\n' +
+    '    at require (node:internal/modules/helpers:123:16)\n' +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\middleware\\error_handling_middleware.js:1:18)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)',
+  stack: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\errors\\api_error.js:28\n" +
+    '}\n' +
+    '^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '}'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1376:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1405:20)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1275:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1091:12)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1297:12)\n' +
+    '    at require (node:internal/modules/helpers:123:16)\n' +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\middleware\\error_handling_middleware.js:1:18)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)',
+  exception: true,
+  date: 'Wed Sep 11 2024 20:02:03 GMT+0500 (Узбекистан, стандартное время)',
+  process: {
+    pid: 9572,
+    uid: null,
+    gid: null,
+    cwd: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub",
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.3.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js"
+    ],
+    memoryUsage: {
+      rss: 77516800,
+      heapTotal: 55439360,
+      heapUsed: 29151872,
+      external: 2299229,
+      arrayBuffers: 17315
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10121.5 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1376,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1405,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1544,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1275,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1091,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 212,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1297,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 123,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\middleware\\error_handling_middleware.js",
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1460,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: C:\Users\abdul\OneDrive\Desktop\Najot ta'lim-BF\RESULT\3-oy\imtihon-3\freelanceHub\middleware\error_handling_middleware.js:14
+    return res.status(500).send({message: "Nazarda tutilmagan xatolik"})
+    ^^^^^^
+  
+  SyntaxError: Unexpected token 'return'
+      at wrapSafe (node:internal/modules/cjs/loader:1376:18)
+      at Module._compile (node:internal/modules/cjs/loader:1405:20)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)
+      at Module.load (node:internal/modules/cjs/loader:1275:32)
+      at Module._load (node:internal/modules/cjs/loader:1091:12)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)
+      at Module.require (node:internal/modules/cjs/loader:1297:12)
+      at require (node:internal/modules/helpers:123:16)
+      at Object.<anonymous> (C:\Users\abdul\OneDrive\Desktop\Najot ta'lim-BF\RESULT\3-oy\imtihon-3\freelanceHub\app.js:9:35)
+      at Module._compile (node:internal/modules/cjs/loader:1460:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token 'return'\n" +
+    "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\middleware\\error_handling_middleware.js:14\n" +
+    '  return res.status(500).send({message: "Nazarda tutilmagan xatolik"})\n' +
+    '  ^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'return'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1376:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1405:20)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1275:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1091:12)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1297:12)\n' +
+    '    at require (node:internal/modules/helpers:123:16)\n' +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js:9:35)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)',
+  stack: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\middleware\\error_handling_middleware.js:14\n" +
+    '  return res.status(500).send({message: "Nazarda tutilmagan xatolik"})\n' +
+    '  ^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'return'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1376:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1405:20)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1275:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1091:12)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1297:12)\n' +
+    '    at require (node:internal/modules/helpers:123:16)\n' +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js:9:35)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)',
+  exception: true,
+  date: 'Wed Sep 11 2024 20:03:56 GMT+0500 (Узбекистан, стандартное время)',
+  process: {
+    pid: 18204,
+    uid: null,
+    gid: null,
+    cwd: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub",
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.3.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js"
+    ],
+    memoryUsage: {
+      rss: 78352384,
+      heapTotal: 55177216,
+      heapUsed: 30085992,
+      external: 2299229,
+      arrayBuffers: 17315
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10234.218 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1376,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1405,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1544,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1275,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1091,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 212,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1297,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 123,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js",
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1460,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: C:\Users\abdul\OneDrive\Desktop\Najot ta'lim-BF\RESULT\3-oy\imtihon-3\freelanceHub\middleware\error_handling_middleware.js:12
+    if (err instanceof )
+                       ^
+  
+  SyntaxError: Unexpected token ')'
+      at wrapSafe (node:internal/modules/cjs/loader:1376:18)
+      at Module._compile (node:internal/modules/cjs/loader:1405:20)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)
+      at Module.load (node:internal/modules/cjs/loader:1275:32)
+      at Module._load (node:internal/modules/cjs/loader:1091:12)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)
+      at Module.require (node:internal/modules/cjs/loader:1297:12)
+      at require (node:internal/modules/helpers:123:16)
+      at Object.<anonymous> (C:\Users\abdul\OneDrive\Desktop\Najot ta'lim-BF\RESULT\3-oy\imtihon-3\freelanceHub\app.js:9:35)
+      at Module._compile (node:internal/modules/cjs/loader:1460:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ')'\n" +
+    "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\middleware\\error_handling_middleware.js:12\n" +
+    '  if (err instanceof )\n' +
+    '                     ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1376:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1405:20)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1275:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1091:12)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1297:12)\n' +
+    '    at require (node:internal/modules/helpers:123:16)\n' +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js:9:35)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)',
+  stack: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\middleware\\error_handling_middleware.js:12\n" +
+    '  if (err instanceof )\n' +
+    '                     ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ')'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1376:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1405:20)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1275:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1091:12)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1297:12)\n' +
+    '    at require (node:internal/modules/helpers:123:16)\n' +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js:9:35)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)',
+  exception: true,
+  date: 'Wed Sep 11 2024 20:03:59 GMT+0500 (Узбекистан, стандартное время)',
+  process: {
+    pid: 1932,
+    uid: null,
+    gid: null,
+    cwd: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub",
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.3.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js"
+    ],
+    memoryUsage: {
+      rss: 75104256,
+      heapTotal: 55701504,
+      heapUsed: 28853208,
+      external: 2299229,
+      arrayBuffers: 17315
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10237.453 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1376,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1405,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1544,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1275,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1091,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 212,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1297,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 123,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js",
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1460,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: TypeError: Cannot set properties of undefined (setting 'exports')
+      at Object.<anonymous> (C:\Users\abdul\OneDrive\Desktop\Najot ta'lim-BF\RESULT\3-oy\imtihon-3\freelanceHub\middleware\winston_middleware.js:21:16)
+      at Module._compile (node:internal/modules/cjs/loader:1460:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)
+      at Module.load (node:internal/modules/cjs/loader:1275:32)
+      at Module._load (node:internal/modules/cjs/loader:1091:12)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)
+      at Module.require (node:internal/modules/cjs/loader:1297:12)
+      at require (node:internal/modules/helpers:123:16)
+      at Object.<anonymous> (C:\Users\abdul\OneDrive\Desktop\Najot ta'lim-BF\RESULT\3-oy\imtihon-3\freelanceHub\app.js:8:39)
+      at Module._compile (node:internal/modules/cjs/loader:1460:14),
+  level: 'error',
+  message: "uncaughtException: Cannot set properties of undefined (setting 'exports')\n" +
+    "TypeError: Cannot set properties of undefined (setting 'exports')\n" +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\middleware\\winston_middleware.js:21:16)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1275:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1091:12)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1297:12)\n' +
+    '    at require (node:internal/modules/helpers:123:16)\n' +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js:8:39)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)',
+  stack: "TypeError: Cannot set properties of undefined (setting 'exports')\n" +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\middleware\\winston_middleware.js:21:16)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1275:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1091:12)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1297:12)\n' +
+    '    at require (node:internal/modules/helpers:123:16)\n' +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js:8:39)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)',
+  exception: true,
+  date: 'Thu Sep 12 2024 08:10:41 GMT+0500 (Узбекистан, стандартное время)',
+  process: {
+    pid: 11500,
+    uid: null,
+    gid: null,
+    cwd: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub",
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.3.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js"
+    ],
+    memoryUsage: {
+      rss: 78897152,
+      heapTotal: 54915072,
+      heapUsed: 30991680,
+      external: 2299229,
+      arrayBuffers: 17315
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 53839.562 },
+  trace: [
+    {
+      column: 16,
+      file: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\middleware\\winston_middleware.js",
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1460,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1544,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1275,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1091,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 212,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1297,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 123,
+      method: null,
+      native: false
+    },
+    {
+      column: 39,
+      file: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js",
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1460,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: TypeError: Cannot set properties of undefined (setting 'exports')
+      at Object.<anonymous> (C:\Users\abdul\OneDrive\Desktop\Najot ta'lim-BF\RESULT\3-oy\imtihon-3\freelanceHub\middleware\winston_middleware.js:21:16)
+      at Module._compile (node:internal/modules/cjs/loader:1460:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)
+      at Module.load (node:internal/modules/cjs/loader:1275:32)
+      at Module._load (node:internal/modules/cjs/loader:1091:12)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)
+      at Module.require (node:internal/modules/cjs/loader:1297:12)
+      at require (node:internal/modules/helpers:123:16)
+      at Object.<anonymous> (C:\Users\abdul\OneDrive\Desktop\Najot ta'lim-BF\RESULT\3-oy\imtihon-3\freelanceHub\app.js:8:39)
+      at Module._compile (node:internal/modules/cjs/loader:1460:14),
+  level: 'error',
+  message: "uncaughtException: Cannot set properties of undefined (setting 'exports')\n" +
+    "TypeError: Cannot set properties of undefined (setting 'exports')\n" +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\middleware\\winston_middleware.js:21:16)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1275:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1091:12)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1297:12)\n' +
+    '    at require (node:internal/modules/helpers:123:16)\n' +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js:8:39)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)',
+  stack: "TypeError: Cannot set properties of undefined (setting 'exports')\n" +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\middleware\\winston_middleware.js:21:16)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1544:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1275:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1091:12)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:212:19)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1297:12)\n' +
+    '    at require (node:internal/modules/helpers:123:16)\n' +
+    "    at Object.<anonymous> (C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js:8:39)\n" +
+    '    at Module._compile (node:internal/modules/cjs/loader:1460:14)',
+  exception: true,
+  date: 'Thu Sep 12 2024 08:10:49 GMT+0500 (Узбекистан, стандартное время)',
+  process: {
+    pid: 15816,
+    uid: null,
+    gid: null,
+    cwd: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub",
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.3.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js"
+    ],
+    memoryUsage: {
+      rss: 78864384,
+      heapTotal: 55701504,
+      heapUsed: 30423992,
+      external: 2299229,
+      arrayBuffers: 17315
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 53847.75 },
+  trace: [
+    {
+      column: 16,
+      file: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\middleware\\winston_middleware.js",
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1460,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1544,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1275,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1091,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 212,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1297,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 123,
+      method: null,
+      native: false
+    },
+    {
+      column: 39,
+      file: "C:\\Users\\abdul\\OneDrive\\Desktop\\Najot ta'lim-BF\\RESULT\\3-oy\\imtihon-3\\freelanceHub\\app.js",
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1460,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
