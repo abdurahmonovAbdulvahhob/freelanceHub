@@ -16,7 +16,7 @@
   "access_time": "15m",
   "refresh_time": "15d",
   "refresh_time_ms": 1296000000,
-  "smtp_password": "gxbqxxuronyqvhdz",
+  "smtp_password": "",
   "smtp_host": "smtp.gmail.com",
   "smtp_port": 587,
   "smtp_user": "abdulvahhobabdurahmonov@gmail.com",
